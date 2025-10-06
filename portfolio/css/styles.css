@@ -1,0 +1,205 @@
+/*
+Author: Riley Mayers
+File Name: styles.css
+Date: 9/11/2025
+*/
+
+body, header, nav, footer, img, h1, main{
+margin: 0;
+padding: 0;
+border: 0;
+font-weight: bold;
+}
+/*
+style rules for body and images
+*/
+nav {
+    background-color:#6c6ea1 ;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Arial, sans-serif;
+    font-weight: italic;
+    border-top: solid;
+    border-width: 0.5px;
+    color: #4647a1;
+}
+
+nav li a {
+    display: block;
+    color:rgb(139, 179, 211);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* 
+style rules for mobile
+*/
+
+.mobile {
+    display: block;
+}
+
+.tabdesk {
+    display: none;
+}
+
+/* 
+style rules for header area
+*/
+.mobile h1
+.mobile h3 {
+  padding: 2%;
+  text-align: center;
+}
+
+.mobile h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+hr.dashed {
+  border-top: 6px dashed #9668ad;
+}
+
+/*
+Media query for large desktop viewports
+*/
+
+   @media screen and (max-width:1921px) {
+    body {
+        background: linear-gradient(#6238ab,#6238ab);
+    }
+    #wrapper {
+        width: 1920px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    main {
+        background-color: #c1aaeb;
+    }
+}
+
+/*
+show tab-desk class, hide mobile class
+*/
+.tab-desk {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+nav li a {
+    padding: 0.5em;
+}
+
+/* 
+Media query for desktop viewport
+*/
+
+@media screen and (max-width:1000px),print {
+    /* 
+    Desktop viewport: style rules for the nav area
+    */
+}
+nav li {
+    font-size: 1.5em;
+}
+
+nav li a {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+nav li a:hover {
+    color: #472e6d;
+    background-color: #a274c8;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: left; /* Centers horizontally */
+  align-items: left;
+}
+
+
+head img {
+    size-adjust: auto;
+}
+
+a {
+      color: rgb(226, 176, 234); 
+      text-decoration: none;
+    }
+
+ #action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.round {
+    border-radius: 6px;
+}
+#info ul {
+    margin-left: 10%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#tel-link {
+    background-color: #301643;
+    padding: 2%;
+    width: 80%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tellink a {
+  color: #714880;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
